@@ -164,7 +164,7 @@ const Navbar = () => {
                     
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <a href=""  target='_blank' rel='noreferrer'>
+                    <a title='Resume' href="https://drive.google.com/file/d/1gYizhxUJqLlcSRYoX60az4OAAGgzsNAF/view?usp=sharing"  target='_blank' rel='noreferrer'>
                       <BsPersonLinesFill />
                     </a>
                     

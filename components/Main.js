@@ -22,26 +22,26 @@ const Main = () => {
             focused on building responsive full stack web applications.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+            <a title='linkedIn' href="http://linkedin.com/in/fampiyush" target='_blank' rel='noreferrer'>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-            <a href="http://linkedin.com/in/fampiyush" target='_blank' rel='noreferrer'>
               <FaLinkedinIn />
-            </a>
             </div>
+            </a>
+            <a title='Github' href="http://gihtub.com/fampiyush" target='_blank' rel='noreferrer'>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-            <a href="http://gihtub.com/fampiyush" target='_blank' rel='noreferrer'>
               <FaGithub />
-            </a>
             </div>
+            </a>
+            <a title='Email' href="mailto:piyushgupta941d@gmail.com" target='_blank' rel='noreferrer'>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-            <a href="mailto:piyushgupta941d@gmail.com" target='_blank' rel='noreferrer'>
               <AiOutlineMail />
-            </a>
             </div>
+            </a>
+            <a title='resume' href="https://drive.google.com/file/d/1gYizhxUJqLlcSRYoX60az4OAAGgzsNAF/view?usp=sharing" target='_blank' rel='noreferrer'>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-            <a href="" target='_blank' rel='noreferrer'>
               <BsFillPersonLinesFill />
-            </a>
             </div>
+            </a>
           </div>
         </div>
       </div>

@@ -37,38 +37,41 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <a
                       href="http://linkedin.com/in/fampiyush"
                       target="_blank"
                       rel="noreferrer"
+                      title='linkedIn'
                     >
-                      <FaLinkedinIn />
-                    </a>
-                  </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaLinkedinIn />
+                  </div>
+                    </a>
                     <a
                       href="http://gihtub.com/fampiyush"
                       target="_blank"
                       rel="noreferrer"
+                      title='Github'
                     >
-                      <FaGithub />
-                    </a>
-                  </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaGithub />
+                  </div>
+                    </a>
                     <a
                       href="mailto:piyushgupta941d@gmail.com"
                       target="_blank"
                       rel="noreferrer"
+                      title='Email'
                     >
-                      <AiOutlineMail />
-                    </a>
-                  </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a href="" target="_blank" rel="noreferrer">
-                      <BsFillPersonLinesFill />
-                    </a>
+                      <AiOutlineMail />
                   </div>
+                    </a>
+                    <a title='resume' href="https://drive.google.com/file/d/1gYizhxUJqLlcSRYoX60az4OAAGgzsNAF/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <BsFillPersonLinesFill />
+                  </div>
+                    </a>
                 </div>
               </div>
             </div>
