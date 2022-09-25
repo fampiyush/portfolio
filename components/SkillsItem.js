@@ -8,7 +8,7 @@ const SkillsItem = ({linkName, text}) => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={`../public/assets/skills/${linkName}`}
+                  src={linkName}
                   width="64px"
                   height="64px"
                   alt="/"
