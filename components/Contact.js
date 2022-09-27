@@ -67,7 +67,7 @@ const Contact = () => {
                       <AiOutlineMail />
                   </div>
                     </a>
-                    <a title='resume' href="https://drive.google.com/file/d/1gYizhxUJqLlcSRYoX60az4OAAGgzsNAF/view?usp=sharing" target="_blank" rel="noreferrer">
+                    <a title='resume' href="https://drive.google.com/file/d/1ZvOCOxOneLKrk0BU0nHhJxUwajDymzQQ/view?usp=sharing" target="_blank" rel="noreferrer">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <BsFillPersonLinesFill />
                   </div>
