@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                     </a>
                     <a
-                      href="http://gihtub.com/fampiyush"
+                      href="http://github.com/fampiyush"
                       target="_blank"
                       rel="noreferrer"
                       title='Github'
