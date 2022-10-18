@@ -23,7 +23,7 @@ const Skills = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <SkillsItem linkName={Htm} text='HTML' />
           <SkillsItem linkName={Css} text='CSS' />
-          <SkillsItem linkName={Javascript} text='JavaScipt' />
+          <SkillsItem linkName={Javascript} text='JavaScript' />
           <SkillsItem linkName={Reactjs} text='React' />
           <SkillsItem linkName={Tailwind} text='Tailwind' />
           <SkillsItem linkName={Node} text='Node JS' />
