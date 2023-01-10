@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { useRouter } from 'next/router';
+import Logo from '../public/assets/logo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -49,7 +50,7 @@ const Navbar = () => {
           <div className='-ml-2'>
           <Link href='/'>
             <Image
-          src="/../public/assets/logo.png"
+          src={Logo}
           alt="/"
           width="100"
           height="80"
@@ -103,7 +104,7 @@ const Navbar = () => {
                 <div className="-ml-6 mt-2">
                 <Link href='/'>
                   <Image
-                    src="/../public/assets/logo.png"
+                    src={Logo}
                     alt="/"
                     width="92"
                     height="55"
@@ -166,7 +167,7 @@ const Navbar = () => {
                     
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <a title='Resume' href="https://drive.google.com/file/d/1gYizhxUJqLlcSRYoX60az4OAAGgzsNAF/view?usp=sharing"  target='_blank' rel='noreferrer'>
+                    <a title='Resume' href="https://drive.google.com/file/d/1zAu9mFyrmYkWPmmFRmvGu75saIvVqQJc/view?usp=share_link"  target='_blank' rel='noreferrer'>
                       <BsPersonLinesFill />
                     </a>
                     

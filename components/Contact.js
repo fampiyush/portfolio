@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                     </a>
                     <a
-                      href="http://gihtub.com/fampiyush"
+                      href="http://github.com/fampiyush"
                       target="_blank"
                       rel="noreferrer"
                       title='Github'
@@ -67,7 +67,7 @@ const Contact = () => {
                       <AiOutlineMail />
                   </div>
                     </a>
-                    <a title='resume' href="https://drive.google.com/file/d/1gYizhxUJqLlcSRYoX60az4OAAGgzsNAF/view?usp=sharing" target="_blank" rel="noreferrer">
+                    <a title='resume' href="https://drive.google.com/file/d/1QKxo_i7LZl_lRojlYQ0Cv3CLAfiQfc7C/view?usp=drivesdk" target="_blank" rel="noreferrer">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <BsFillPersonLinesFill />
                   </div>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from "next/link";
 import React from "react";
 import AboutImg from '../public/assets/about.jpg'
 
@@ -23,7 +24,9 @@ const About = () => {
             clients. I am now spending my time building projects with React JS,
             Firebase, and learning new technologies.
         </p>
+        <Link href="/#projects">
         <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
+        </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
             <Image className='rounded-xl' src={AboutImg} alt="/" />
