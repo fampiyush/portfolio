@@ -46,6 +46,7 @@ const Navbar = () => {
   return (
     <div style={{backgroundColor: `${navBg}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       <div className="flex justify-between items-center w-full h-full pr-3  2xl:px-8">
+          <div className='-ml-2'>
           <Link href='/'>
             <Image
           src="/../public/assets/logo.png"
@@ -55,6 +56,7 @@ const Navbar = () => {
           className='hover:cursor-pointer'
         />
           </Link>
+          </div>
         
         <div>
           <ul style={{color: `${linkColor}`}} className="hidden md:flex">

@@ -34,12 +34,12 @@ const moviesTrailer = () => {
             functionality too.
           </p>
           <a
-            href="https://expo.dev/@fampiyush/Movies?serviceType=classic&distribution=expo-go"
+            href="https://expo.dev/artifacts/eas/bLe2iTMjkgVQyvnB7ZUSD9.apk"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-300">
-              Demo
+              Download APK
             </button>
           </a>
           <a
