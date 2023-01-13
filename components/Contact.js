@@ -125,6 +125,7 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                 </div>
+                <input type="hidden" name="_okay" style={{display:"none !important"}}></input>
                 <button className="w-full p-4 text-gray-100 mt-4">
                   Send Message
                 </button>
