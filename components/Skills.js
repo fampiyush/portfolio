@@ -6,11 +6,13 @@ import Cpp from '../public/assets/skills/cpp.png'
 import Firebase from '../public/assets/skills/firebase.png'
 import Github from '../public/assets/skills/github1.png'
 import Javascript from '../public/assets/skills/javascript.png'
+import postgres from '../public/assets/skills/postgres.png'
 import Mongo from '../public/assets/skills/mongo.png'
-import Next from '../public/assets/skills/nextjs.png'
+import Next from '../public/assets/skills/nextjs.svg'
 import Node from '../public/assets/skills/node.png'
 import Reactjs from '../public/assets/skills/react.png'
 import Tailwind from '../public/assets/skills/tailwind.png'
+import aws from '../public/assets/skills/aws.png'
 
 const Skills = () => {
   return (
@@ -25,13 +27,14 @@ const Skills = () => {
           <SkillsItem linkName={Css} text='CSS' />
           <SkillsItem linkName={Javascript} text='JavaScipt' />
           <SkillsItem linkName={Reactjs} text='React' />
-          <SkillsItem linkName={Tailwind} text='Tailwind' />
           <SkillsItem linkName={Node} text='Node JS' />
           <SkillsItem linkName={Next} text='Next JS' />
+          <SkillsItem linkName={postgres} text='PostgreSQL' />
           <SkillsItem linkName={Mongo} text='Mongo DB' />
-          <SkillsItem linkName={Cpp} text='C++' />
+          <SkillsItem linkName={Tailwind} text='Tailwind' />
+          <SkillsItem linkName={aws} text='AWS' />
           <SkillsItem linkName={Firebase} text='FireBase' />
-          <SkillsItem linkName={Github} text='Git/Github' />
+          <SkillsItem linkName={Cpp} text='C++' />
         </div>
       </div>
     </div>

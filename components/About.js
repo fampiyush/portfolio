@@ -10,25 +10,17 @@ const About = () => {
         <div className="col-span-2">
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
           <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>&#47;&#47; I am not your normal developer</p>
-          <p className='py-2 text-gray-600'>
-            I have spent last 3 years exploring different niche in programming
-            from learning cpp to doing DSA but finally choosing the web
-            development path after getting my hands on to HTML & CSS during my
-            participation in google code in 2019.
+          <p className='py-2 text-[#ecf0f3]'>
+            I am a full stack developer with a strong command over both front-end and back-end technologies, allowing me to build complete and scalable applications.
           </p>
-          <p className='py-2 text-gray-600'>
-            From then I started learning
-            javascript and then backend technologies like Node JS / Express Js.
-            I then started freelancing and have made a number of Web Apps for my
-            clients. I am now spending my time building projects with React JS,
-            Firebase, and learning new technologies.
+          <p className='py-2 text-[#ecf0f3]'>
+            I have developed several scalable web/mobile apps from scratch. I am familiar with both SQL and noSQL databases and have worked with aws services. I have also worked at a fintech startup in building their cross platform react native mobile app.
         </p>
         <Link href="/#projects">
-        <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
+        <p className='py-2 text-[#ecf0f3] underline cursor-pointer'>Check out some of my latest projects.</p>
         </Link>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+        <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
             <Image className='rounded-xl' src={AboutImg} alt="/" />
         </div>
       </div>

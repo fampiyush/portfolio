@@ -56,19 +56,19 @@ const moviesTrailer = () => {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#ecf0f3]py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> React Native
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#ecf0f3]py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#ecf0f3]py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> JavaScript
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#ecf0f3]py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> The MovieDB API
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#ecf0f3]py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> CSS
               </p>
             </div>

@@ -24,8 +24,8 @@ const Navbar = () => {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')
     } else {
-      setNavBg('#ecf0f3')
-      setLinkColor('#1f2937')
+      setNavBg('#1c1c1c')
+      setLinkColor('#ecf0f3')
     }
   },[router])
 
@@ -48,7 +48,8 @@ const Navbar = () => {
     <div style={{backgroundColor: `${navBg}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       <div className="flex justify-between items-center w-full h-full pr-3  2xl:px-8">
           <div className='-ml-2'>
-          <Link href='/'>
+          <Link href='/' passHref>
+          <a>
             <Image
           src={Logo}
           alt="/"
@@ -56,6 +57,7 @@ const Navbar = () => {
           height="80"
           className='hover:cursor-pointer'
         />
+          </a>
           </Link>
           </div>
         
@@ -95,26 +97,28 @@ const Navbar = () => {
           <div
             className={
               nav
-                ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+                ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#1c1c1c] p-10 ease-in duration-500"
                 : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
             }
           >
             <div>
               <div className="flex w-full items-center justify-between">
                 <div className="-ml-6 mt-2">
-                <Link href='/'>
+                <Link href='/' passHref>
+                <a>
                   <Image
                     src={Logo}
                     alt="/"
                     width="92"
                     height="55"
                   />
+                </a>
                 </Link>
                   
                 </div>
                 <div
                   onClick={handleNav}
-                  className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                  className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer"
                 >
                   <AiOutlineClose />
                 </div>
@@ -148,25 +152,25 @@ const Navbar = () => {
                   Let&apos;s Connect
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <a href="http://linkedin.com/in/fampiyush" target='_blank' rel='noreferrer'>
                       <FaLinkedinIn />
                     </a>
                     
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <a href="http://github.com/fampiyush"  target='_blank' rel='noreferrer'>
                       <FaGithub />
                     </a>
                     
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <a href="mailto:piyushgupta941d@gmail.com"  target='_blank' rel='noreferrer'>
                       <AiOutlineMail />
                     </a>
                     
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <a title='Resume' href="https://drive.google.com/file/d/1zAu9mFyrmYkWPmmFRmvGu75saIvVqQJc/view?usp=share_link"  target='_blank' rel='noreferrer'>
                       <BsPersonLinesFill />
                     </a>
