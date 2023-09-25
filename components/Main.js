@@ -15,7 +15,7 @@ const Main = () => {
           <h1 className="py-4 text-[#ecf0f3]">
             Hi, I&apos;m <span className="text-[#5651e5]">Piyush</span>
           </h1>
-          <h1 className="py-2 text-[#ecf0f3]">A Full-Stack Web Developer</h1>
+          <h1 className="py-2 text-[#ecf0f3]">A Full-Stack Developer</h1>
           <p className="py-4 text-[#ecf0f3] max-w-[70%] m-auto">
             I&apos;m a full stack developer specializing in building and
             designing exceptional digital experiences. Currently, I&apos;m

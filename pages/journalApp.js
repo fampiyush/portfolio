@@ -1,10 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import Movies from "../public/assets/projects/Movies-trailer.png";
+import JournalApp from "../public/assets/projects/journal-app.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import qrAndroid from '../public/assets/projects/qr-android.png'
+import qrIos from '../public/assets/projects/qr-ios.png'
 
-const moviesTrailer = () => {
+const journalApp = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[40vh] relative">
@@ -13,11 +15,11 @@ const moviesTrailer = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Movies}
+          src={JournalApp}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Movies Trailer</h2>
+          <h2 className="py-2">Polaroid Gallery</h2>
           <h3>React Native</h3>
         </div>
       </div>
@@ -27,30 +29,53 @@ const moviesTrailer = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="py-2">
-            This is a hybrid mobile app built using React Native and using The
-            Movie Database API. It&apos;s UI is similar to that of Netflix. It
-            can show trailer and details of every movie and tv shows. It has
-            movies and tv shows categorized on the homepage and has search
-            functionality too.
+            This is a hybrid mobile app built using React Native and using
+            NodeJS and expressJS as backend. AWS Services are used for various
+            tasks like S3 bucket for image storage, rds for postgreSQL database
+            and AWS ec2 for hosting backend. It is a modern journal app where
+            you can create collections and then add slides with images and
+            texts. I also intent to create sharing features and other users can comment, basically social media of journals.
           </p>
           <a
-            href="https://expo.dev/artifacts/eas/bLe2iTMjkgVQyvnB7ZUSD9.apk"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-300">
-              Download APK
-            </button>
-          </a>
-          <a
-            href="https://github.com/fampiyush/Netflix-Clone-React-Native-"
+            href="https://github.com/fampiyush/JournalApp-Frontend"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4  hover:scale-105 ease-in duration-300">
-              Code
+              Code frontend
             </button>
           </a>
+          <a
+            href="https://github.com/fampiyush/JournalApp-Backend"
+            target="_blank"
+            rel="noreferrer"
+            className='ml-4'
+          >
+            <button className="px-8 py-2 mt-4  hover:scale-105 ease-in duration-300">
+              Code backend
+            </button>
+          </a>
+
+          <h2 className='mt-8'>How to use :</h2>
+          <div className='md:flex md:flex-row md:mr-16 mt-8 mb-8'>
+            <div>
+              <h3>For Android Users -</h3>
+              <ol className='ml-4 mt-4'>
+                <li>1. Download Expo app from play store</li>
+                <li>2. Scan this QR Code</li>
+                <Image src={qrAndroid} alt='qrAndroid' height={300} width={300} />
+              </ol>
+            </div>
+            <div className='mt-8 md:mt-0 md:ml-16'>
+              <h3>For IOS Users -</h3>
+              <ol className='ml-4 mt-4'>
+                <li>1. Download Expo Go app from App store</li>
+                <li>2. Scan this QR Code</li>
+                <Image src={qrIos} alt='qrIos' height={300} width={300} />
+              </ol>
+            </div>
+          </div>
+
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -63,13 +88,13 @@ const moviesTrailer = () => {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-[#ecf0f3]py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> JavaScript
+                <RiRadioButtonFill className="pr-1" /> JavaScript/TypeScript
               </p>
               <p className="text-[#ecf0f3]py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> The MovieDB API
+                <RiRadioButtonFill className="pr-1" /> AWS Services
               </p>
               <p className="text-[#ecf0f3]py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> CSS
+                <RiRadioButtonFill className="pr-1" /> NodeJS
               </p>
             </div>
           </div>
@@ -82,4 +107,4 @@ const moviesTrailer = () => {
   );
 };
 
-export default moviesTrailer;
+export default journalApp;
