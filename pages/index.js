@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Piyush Gupta | Full Stack Developer </title>
         <meta name="description" content="Piyush Gupta's portfolio website" />
-        <link rel="icon" href="/icon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <Main />
       <About />
