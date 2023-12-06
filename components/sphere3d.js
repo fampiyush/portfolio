@@ -41,9 +41,17 @@ function sphere3d() {
     const colorMap = useRef()
     const Loads = () => {
         colorMap.current = useTexture('lava.jpg')
-        cameraRef.current.position.z = 15
-        cameraRef.current.position.x = -10
-        cameraRef.current.position.y = -6
+
+        if(window.innerWidth < 500) {
+            cameraRef.current.position.z = 15
+            cameraRef.current.position.x = -5
+            cameraRef.current.position.y = -6
+        }else {
+            cameraRef.current.position.z = 15
+            cameraRef.current.position.x = -10
+            cameraRef.current.position.y = -6
+        }
+
         return (
         <mesh ref={sphere}>
             <sphereGeometry args={[3]} />
