@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFile, BsFillPersonLinesFill } from 'react-icons/bs';
 import {FaGithub, FaLinkedinIn } from "react-icons/fa"
-
+import Sphere3d from './sphere3d';
 
 const Main = () => {
   return (
-    <div id='hpme' className="w-full h-screen text-center">
+    <div id='home' className="w-full h-screen text-center">
+        <Sphere3d />
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-[#ecf0f3]">
