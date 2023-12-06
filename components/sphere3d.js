@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import React, {useRef, useState} from 'react'
 import * as THREE from 'three'
 import { useTexture } from '@react-three/drei';
