@@ -74,9 +74,9 @@ const moviesTrailer = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        {/* <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
