@@ -181,6 +181,13 @@ const Navbar = () => {
             </div>
           </div>
       </div>
+      <div className='fixed top-3 left-[38%] md:left-[20%] lg:left-[45%]'>
+        <a href="https://3d.piyushg.com/" target="_blank" rel="noopener noreferrer">
+          <button className="rounded-full bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 p-2 md:p-4 hover:opacity-75">
+            Explore in 3d
+          </button>
+        </a>
+      </div>
     </div>
   );
 };
