@@ -11,7 +11,7 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-[#ecf0f3]'>
-            I am a full stack developer with a strong command over both front-end and back-end technologies, allowing me to build complete and scalable applications.
+            I am a Software developer with a strong command over both front-end, back-end technologies and some system programming, allowing me to build complete and scalable applications.
           </p>
           <p className='py-2 text-[#ecf0f3]'>
             I have developed several scalable web/mobile apps from scratch. I am familiar with both SQL and noSQL databases and have worked with aws services. I have also worked at a fintech startup in building their cross platform react native mobile app.
