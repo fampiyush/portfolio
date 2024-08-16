@@ -9,7 +9,7 @@ import qrIos from '../public/assets/projects/qr-ios.png'
 const journalApp = () => {
   return (
     <div className="w-full">
-      <div className="w-screen h-[40vh] relative">
+      <div className="w-full h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[40vh] bg-black/70 z-10" />
         <Image
           className="absolute z-1"

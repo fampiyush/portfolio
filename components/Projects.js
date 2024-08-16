@@ -9,6 +9,7 @@ import SupportDesk from "../public/assets/projects/Support-desk.png"
 import MoviesTrailer from "../public/assets/projects/Movies-trailer.png"
 import JournalApp from "../public/assets/projects/journal-app.png"
 import VirtualMeet from "../public/assets/projects/virtual-meet.png"
+import Rlox from "../public/assets/projects/rlox.png"
 
 const Projects = () => {
   return (
@@ -25,20 +26,30 @@ const Projects = () => {
             img={VirtualMeet}
             projectUrl="/virtualMeet"
             tech='React / Node JS'
+            desc={'A 3d video conferencing app that allows users to create and join video calls with multiple participants.'}
+          />
+          <ProjectItem
+            title="RLox Interpreter"
+            img={Rlox}
+            projectUrl="/rlox"
+            tech='Rust'
+            desc={'A tree walk lox interpreter written in Rust.'}
           />
           <ProjectItem
             title="Polaroid Gallery"
             img={JournalApp}
             projectUrl="/journalApp"
             tech='React Native'
+            desc={'A mobile app that allows users to take create collection of stories with photos and captions.'}
           />
           <ProjectItem
             title="House Marketplace"
             img={houseapp}
             projectUrl="/houseMarketplace"
             tech='React JS'
+            desc={'A web app that allows users to browse and filter through a list of houses for sale.'}
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Github Finder"
             img={GithubFinder}
             projectUrl="/githubFinder"
@@ -55,7 +66,7 @@ const Projects = () => {
             img={MoviesTrailer}
             projectUrl="/moviesTrailer"
             tech='React Native'
-          />
+          /> */}
 
         </div>
       </div>

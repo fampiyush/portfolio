@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import VirtualMeet from "../public/assets/projects/virtual-meet.png";
+import Rlox from "../public/assets/projects/rlox.png"
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const virtualMeet = () => {
@@ -12,12 +12,12 @@ const virtualMeet = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={VirtualMeet}
+          src={Rlox}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Virtual Meet</h2>
-          <h3>React JS / Node JS</h3>
+          <h2 className="py-2">RLox</h2>
+          <h3>Rust</h3>
         </div>
       </div>
 
@@ -26,23 +26,23 @@ const virtualMeet = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="py-2">
-            This web app is built using react-three-fiber and three js. It is a
-            virtual meet app where users can create rooms and join rooms. It
-            uses webRTC for video and audio calling. It also has a chat feature
-            where users can chat with each other and also sharing screen
-            feature.
+            A Rust implementation of the Lox programming language interpreter
+            from the book Crafting Interpreters.<br />
           </p>
+          <h3>Features</h3>
+          <ul className="list-disc pl-4 py-2">
+            <li>Arithmetic operators (+, -, *, /)</li>
+            <li>Comparison operators (&lt;, &gt;, &lt;=, &gt;=, ==)</li>
+            <li>Logical operators (and, or, !)</li>
+            <li>Variables</li>
+            <li>Functions</li>
+            <li>Conditional statements (if, if-else)</li>
+            <li>Loops (for, while)</li>
+            <li>Classes</li>
+            <li>Inheritance</li>
+          </ul>
           <a
-            href="https://meet.piyushg.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-300">
-              Demo
-            </button>
-          </a>
-          <a
-            href="https://github.com/fampiyush/virtual-meet"
+            href="https://github.com/fampiyush/rlox"
             target="_blank"
             rel="noreferrer"
           >
@@ -56,19 +56,7 @@ const virtualMeet = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-2 md:grid-cols-1">
               <p className="text-[#ecf0f3] py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
-              </p>
-              <p className="text-[#ecf0f3] py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React-three-fiber
-              </p>
-              <p className="text-[#ecf0f3] py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Three.js
-              </p>
-              <p className="text-[#ecf0f3] py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Node JS
-              </p>
-              <p className="text-[#ecf0f3] py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind CSS
+                <RiRadioButtonFill className="pr-1" /> Rust
               </p>
             </div>
           </div>

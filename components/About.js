@@ -14,7 +14,7 @@ const About = () => {
             I am a Software developer with a strong command over both front-end, back-end technologies and some system programming, allowing me to build complete and scalable applications.
           </p>
           <p className='py-2 text-[#ecf0f3]'>
-            I have developed several scalable web/mobile apps from scratch. I am familiar with both SQL and noSQL databases and have worked with aws services. I have also worked at a fintech startup in building their cross platform react native mobile app.
+            I have developed several scalable web/mobile apps from scratch. I am familiar with both SQL and noSQL databases and have worked with aws services. I am also interested in system programming and I know rust and c++ too. I have also worked at a fintech startup in building their cross platform react native mobile app.
         </p>
         <Link href="/#projects">
         <p className='py-2 text-[#ecf0f3] underline cursor-pointer'>Check out some of my latest projects.</p>
