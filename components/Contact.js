@@ -83,7 +83,7 @@ const Contact = () => {
                   </a>
                   <a
                     title="resume"
-                    href="https://drive.google.com/file/d/1II4MdHclJJ6vcau5RdLxmaMjBGUjP1uA/view?usp=sharing"
+                    href="https://drive.google.com/file/d/104NE8PRPL_C40IKSWLksHn7qtMT4CJsp/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
                   >
