@@ -10,6 +10,8 @@ import MoviesTrailer from "../public/assets/projects/Movies-trailer.png"
 import JournalApp from "../public/assets/projects/journal-app.png"
 import VirtualMeet from "../public/assets/projects/virtual-meet.png"
 import Rlox from "../public/assets/projects/rlox.png"
+import pollsgram from '../pages/pollsgram';
+import Pollsgram from '../public/assets/projects/pollsgram.png';
 
 const Projects = () => {
   return (
@@ -27,6 +29,13 @@ const Projects = () => {
             projectUrl="/virtualMeet"
             tech='React / Node JS'
             desc={'A 3d video conferencing app that allows users to create and join video calls with multiple participants.'}
+          />
+          <ProjectItem
+            title="PollsGram"
+            img={Pollsgram}
+            projectUrl="/pollsgram"
+            tech='React / Java (Spring Boot)'
+            desc={'A full-stack web application that allows users to create, share, and vote on polls.'}
           />
           <ProjectItem
             title="RLox Interpreter"
