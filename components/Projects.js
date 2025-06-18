@@ -10,8 +10,7 @@ import MoviesTrailer from "../public/assets/projects/Movies-trailer.png"
 import JournalApp from "../public/assets/projects/journal-app.png"
 import VirtualMeet from "../public/assets/projects/virtual-meet.png"
 import Rlox from "../public/assets/projects/rlox.png"
-import pollsgram from '../pages/pollsgram';
-import Pollsgram from '../public/assets/projects/pollsgram.png';
+import Pollsgram from '../public/assets/projects/polls-gram.png';
 
 const Projects = () => {
   return (
