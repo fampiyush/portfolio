@@ -27,6 +27,13 @@ const pollsgram = () => {
           <p className="py-2">
             PollsGram is a full-stack web application that allows users to create, share, and vote on polls. It features a modern, responsive frontend built with React and a robust backend powered by Spring Boot.
           </p>
+          <iframe
+            src='https://www.youtube.com/embed/VAkng8oGIJM?si=n_WSPfl9UZQeF_bB'
+            title='PollsGram Demo'
+            className="max-w-[700px] w-full h-[40vh] md:h-[50vh] rounded-lg shadow-lg shadow-gray-400"
+            allowFullScreen
+          >
+          </iframe>
           <a
             href="https://github.com/fampiyush/PollsGram"
             target="_blank"
